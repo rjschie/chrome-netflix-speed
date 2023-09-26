@@ -1,0 +1,25 @@
+.NS_speedNoticeWrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NS_speedNotice {
+  font-size: 4rem;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 2rem 4rem;
+  text-align: center;
+
+  /* opacity: 0; */
+  visibility: hidden;
+}
